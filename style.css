@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #15131F;
+}
+
+.card1{
+    cursor: pointer;
+    width: 320px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 0px #3b365a;
+}
+
+.card1:hover{
+ transform: scale(1.1);
+ transition: 0.4s;
+}
+
+.card2:hover{
+ transform: scale(1.1);
+ transition: 0.4s;
+}
+
+.card3:hover{
+ transform: scale(1.1);
+ transition: 0.4s;
+}
+
+.card2{
+    cursor: pointer;
+    width: 320px;
+    height: 450px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 0px #3b365a;
+}
+
+.card3{
+    cursor: pointer;
+    width: 320px;
+    height: 450px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 0px #3b365a;
+}
+
+.img1{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url(/img/lasVegas.jpg);
+    background-size: cover;
+}
+
+.img2{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url(/img/newYork.jpg);
+    background-size: cover;
+}
+
+.img3{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url(/img/singapura.jpg);
+    background-size: cover;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: #15131F;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+
+.texto1 h1{
+    letter-spacing: 3px;
+}
+
+.paragrafo1{
+    margin-top: 20px;
+    max-width: 280px;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: #15131F;
+}
+
+.texto2 h1{
+    letter-spacing: 3px;
+}
+
+.paragrafo2{
+    margin-top: 20px;
+    max-width: 280px;
+}
+
+.texto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: #15131F;
+}
+
+.texto3 h1{
+    letter-spacing: 3px;
+}
+
+.paragrafo3{
+    margin-top: 20px;
+    max-width: 280px;
+}
